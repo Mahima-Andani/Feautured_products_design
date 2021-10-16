@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    section{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        /* flex-wrap: wrap-reverse; */
+    }
+    /* section::after{
+        content: '';
+        position: absolute;
+        height: 100%;
+        width: 80%;
+        top: 0;
+        left: 50%;
+        background-color: #fff4;
+    } */
+    
+    .Multipurpose_jute_bags{
+        background-color: rgba(95, 158, 160, 0.589);
+    }
+    .women_n_style{
+        background-color: hsl(359,67%,85%);
+        /* position: relative; */
+    }
+    h1{
+        color: #fff9;
+        font-size: 3.5rem;
+    }
+    h3{
+        color: #fff9;
+    }
+    img{
+        width: 30%;
+    }
+    .women_n_style img{
+        width: 20%;
+    }
+    .right_content{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+        text-align: right;
+    }
+    a{
+        padding: .2rem;
+        margin: 1rem;
+        text-decoration: none;
+        color:cornsilk;
+    }
+    /* .women_n_style div a .product{
+        position: absolute;
+        right: 2%;
+        top: 25%;
+    } */
+    .women_n_style_beauty{
+        background-color: hsl(359,67%,60%);
+    }
+    /* section::after {
+        content: '';
+        position: absolute;
+        right: 0;
+        bottom: 0;
+  width: 25%; 
+  height: 50%; 
+  border: 2px dotted #fff9;
+  border-top-left-radius: 100%;
+  background-color: #fff6;
+}
+.product{
+    z-index: 1;
+} */
+
+</style>
+<body>
+    <section class="Multipurpose_jute_bags">
+        <img src="gorgeousgirl.png" alt="">
+        <div class="arrow-right"></div>
+        <div class="right_content">
+            <h1>Multipurpose Jute Bags</h1>
+            <h3>Gorgeous jute bags suitable for shopping, travel, storage and much more.</h3>
+        </div>
+    </section>
+    <section class="women_n_style">
+        <img src="photo6246957772742700292-removebg.png" alt="">
+        <div class="right_content">
+            <h1>Multipurpose Jute Bags</h1>
+            <h3>Gorgeous jute bags suitable for shopping, travel, storage and much more.</h3>
+            <img src="graceful.png" class="product" alt="">
+            <a href="#">View More..</a>
+        </div>
+    </section>
+    <section class="women_n_style_beauty">
+        <img src="photo6242490865020939350-removebg-preview.png" alt="">
+        <div class="right_content">
+            <h1>Women 'N' Style</h1>
+            <h3>Trendy and stylish jute bags customised for women. </h3>
+            <img src="women___style.png" class="product" alt="">
+            <a href="#">View More..</a>
+        </div>
+    </section>
+
+</body>
+</html>
